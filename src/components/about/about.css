@@ -1,0 +1,40 @@
+.container{
+    width: 1409px ;
+    margin: 0 auto;
+}
+
+.about{
+    background: #FDF6E9;
+    padding: 30px 0;
+}
+
+.aboutContent{
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+}
+
+.aboutTitle{
+    text-align: left;
+}
+
+.aboutTitle span{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: #EC9706;    
+}
+
+.aboutTitle h4{
+    margin: 10px 0 20px 0;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+}
+
+.aboutTitle p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.09px;
+    letter-spacing: 0.05em;
+}

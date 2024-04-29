@@ -1,0 +1,14 @@
+.container{
+    width: 1409px ;
+    margin: 0 auto;
+}
+
+.mainFooter{
+    background: #FDF6E9;
+    padding: 50px 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}

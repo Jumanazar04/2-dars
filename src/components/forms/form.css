@@ -1,0 +1,66 @@
+.container{
+    width: 1409px ;
+    margin: 0 auto;
+}
+
+.form span{
+    color: #EC9706;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: center;    
+}
+
+.form h4{
+    color: #1D1D1D;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+    text-align: center;
+    margin: 30px;
+}
+
+.mainForm{
+    margin: 0 auto;
+    width: 1065px;
+    height: 669px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+    text-align: left;
+    gap: 35px;
+}
+
+.mainForm input{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    width: 838px;
+    height: 79px;
+    border-radius: 10px;
+    border: 1px solid #B2B1B1;
+    padding: 10px;
+}
+
+.mainForm textarea{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    width: 838px;
+    height: 211px;
+    border-radius: 10px;
+    border: 1px solid #B2B1B1;
+    padding: 10px;
+}
+
+.mainForm button{
+    width: 210px;
+    background: #EC9706 ;
+    color: #FFFF;
+    border-radius: 10px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    cursor: pointer;
+}

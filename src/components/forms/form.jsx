@@ -1,5 +1,7 @@
+import React from 'react'
 import './form.css'
-export function Form(){
+export class Form extends React.Component{
+    render(){
     return(
         <section className='container'>
             <div className="form">
@@ -13,5 +15,5 @@ export function Form(){
                 </form>
             </div>
         </section>
-    )
+    )}
 }

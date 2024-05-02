@@ -1,10 +1,12 @@
+import React from 'react';
 import blog_1 from '../../assets/blog_1.png';
 import blog_2 from '../../assets/blog_2.png';
 import blog_3 from '../../assets/blog_3.png';
 
 import './blog.css'
 
-export function Blog(){
+export class Blog extends React.Component{
+    render(){
     return (
         <section className='container'>
             <span className='blogSpan1'>Blog</span>
@@ -57,5 +59,5 @@ export function Blog(){
                 </div>
             </div>
         </section>
-    )
+    )}
 }

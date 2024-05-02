@@ -1,6 +1,12 @@
+import React from "react"
 import "./footer.css"
+import inst from '../../assets/inst.jpg';
+import facebook from '../../assets/facebook.webp';
+import twitter from '../../assets/twit.webp';
 
-export function Footer(){
+export class Footer extends React.Component{
+    
+    render(){
     return(
         <footer className="mainFooter">
             <div className="container footer">
@@ -27,12 +33,12 @@ export function Footer(){
                     <li>Email us</li>
                 </ul>
                 <div className="links">
-                    <img src="" alt="img" />
-                    <img src="" alt="img" />
-                    <img src="" alt="img" />
+                    <img src={inst} alt="img" />
+                    <img src={facebook} alt="img" />
+                    <img src={twitter} alt="img" />
                 </div>
             </div>
             
         </footer>
-    )
+    )}
 }

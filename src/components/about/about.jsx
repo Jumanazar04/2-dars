@@ -1,8 +1,10 @@
+import React from 'react';
 import about from '../../assets/about.png';
 
 import './about.css';
 
-export function About(){
+export class About extends React.Component{
+    render(){
     return (
         <section className='about'>
             <div className="container aboutContent">
@@ -20,5 +22,5 @@ export function About(){
                 </div>
             </div>
         </section>
-    )
+    )}
 }

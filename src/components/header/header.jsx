@@ -1,9 +1,12 @@
+import React from 'react';
 import header_img from '../../assets/header_img.png';
 
 import "./header.css"
 
-export function Header(){
-    return <header >
+export class Header extends React.Component{
+  render (){
+  return (
+  <header >
     <nav className='container'>
       <h2 className='logoText'>
         HIDEVA GROUP 
@@ -39,6 +42,5 @@ export function Header(){
     </div>
     
   </header>
-
-   
+  )}
 }

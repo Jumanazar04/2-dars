@@ -1,11 +1,13 @@
+import React from 'react';
 import services_1 from '../../assets/services_1.png';
 import services_2 from '../../assets/services_2.png';
 import services_3 from '../../assets/services_3.png';
 
 import styles from './services.module.css';
 
-export function Services(){
-    return <section className={styles.container}>
+export class Services extends React.Component{
+    render(){
+    return (<section className={styles.container}>
         <span>
             Services
         </span>
@@ -63,4 +65,5 @@ export function Services(){
             </div>
         </div>
     </section>
+    )}
 }

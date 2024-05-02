@@ -6,6 +6,7 @@ import { About } from './components/about/about';
 import { Blog } from './components/blog/blog';
 import { Form } from './components/forms/form';
 import { Footer } from './components/footer/footer';
+import {Counter} from './components/counter/counter';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Blog />
       <Form />
       <Footer />
+      <Counter />
     </div>
   );
 }
